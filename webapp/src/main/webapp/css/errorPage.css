@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://www.refinery29.com/images/9078214.jpg?crop=40%3A21");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+}
+
+a:hover {
+    color: #666;
+    border-bottom: 2px solid #666;
+}

@@ -1,0 +1,116 @@
+.filter {
+    width: 90%;
+}
+
+.filter-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.difficulty-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredients-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.input-ingredients {
+    width: 100% !important;
+}
+
+.chips .input {
+    width: 100% !important;
+}
+
+.likes-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.likes {
+    display: flex;
+    flex-flow: column;
+    margin-right: 5%;
+}
+
+.sort-by-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.apply-filter {
+    border-radius: 8px;
+    background-color: #00bfa5;
+    color: white;
+}
+
+.apply-filter:hover {
+    background-color: #26a69a;
+}
+
+.filter-subtitle {
+    font-size: 12px;
+    color: #616161;
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.margin-top {
+    margin-top: 5% !important;
+}
+
+.card-title-category {
+    background-color: inherit !important;
+    color: white !important;
+    border: none !important;
+    cursor: pointer;
+}
+
+.category-input {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chip {
+    display: flex;
+    flex-flow: row;
+}
+
+.chip:hover {
+    background-color: #00bfa5 !important;
+}
+
+.chips {
+    display: flex;
+    flex-flow: column;
+}
+
+.dropdown-content {
+}
+
+.darkgrey {
+    color: var(--dark-grey-color);
+}
